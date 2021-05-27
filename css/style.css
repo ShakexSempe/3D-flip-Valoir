@@ -60,13 +60,24 @@
           height: 100%;
           background-image: radial-gradient(#25447a6e, rgba(0, 0, 0, 0.368)); }
         .container .card .card_content .card_front .card_title {
-          font-size: 4.5rem;
+          font-size: 3.5em;
+          letter-spacing: .15em;
+          margin: 0 auto;
+          width: 100%;
+          position: absolute;
+          top: 55%;
           transform: translateZ(9rem);
           order: 2;
           text-transform: uppercase; }
-          @media (max-width: 768px) {
+          @media (min-width: 400px) {
             .container .card .card_content .card_front .card_title {
-              font-size: 3.5em; } }
+              font-size: 4.3em;
+              letter-spacing: .25em; } }
+          @media (min-width: 768px) {
+            .container .card .card_content .card_front .card_title {
+              font-size: 4.5em;
+              letter-spacing: .22em;
+              padding-left: 15px; } }
         .container .card .card_content .card_front .card_subtitle {
           transform: translateZ(6rem);
           text-transform: uppercase;
